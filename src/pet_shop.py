@@ -61,3 +61,7 @@ def add_pet_to_stock(pet_shop, new_pet):
 def get_customer_cash(customer):
     return customer["cash"]
 
+# Test 15 - reduce customer cash by an amount, does not return anything
+def remove_customer_cash(customer, cash_value):
+    customer["cash"] -= cash_value
+
