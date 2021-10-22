@@ -16,4 +16,8 @@ def add_or_remove_cash(pet_shop,cash_value):
 def get_pets_sold(pet_shop):
     return pet_shop["admin"]["pets_sold"]
 
+# Test 6 - increase the number of pets sold - does not return a value
+def increase_pets_sold(pet_shop, num_pets_sold):
+    pet_shop["admin"]["pets_sold"] += num_pets_sold
+
 # 
