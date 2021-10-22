@@ -1,14 +1,19 @@
 # WRITE YOUR FUNCTIONS HERE
 
-# return the name of the pet shop
+# Test 1 - return the name of the pet shop
 def get_pet_shop_name(pet_shop):
     return pet_shop["name"]
 
-# return the total cash held at the moment
+# Test 2 - return the total cash held at the moment
 def get_total_cash(pet_shop):
     return pet_shop["admin"]["total_cash"]
 
-# add or remove cash from the till - does not return a value
+# Tests 3 & 4 - add or remove cash from the till - does not return a value
 def add_or_remove_cash(pet_shop,cash_value):
     pet_shop["admin"]["total_cash"] += cash_value
 
+# Test 5 - return the number of pets sold that day
+def get_pets_sold(pet_shop):
+    return pet_shop["admin"]["pets_sold"]
+
+# 
