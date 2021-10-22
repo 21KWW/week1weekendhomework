@@ -53,6 +53,7 @@ def remove_pet_by_name(pet_shop, pet_name):
         
         each_pet_index += 1
 
-    # print(pet_shop["pets"])
-
+# Test 13 - add a pet to the stock, does not return anything
+def add_pet_to_stock(pet_shop, new_pet):
+    pet_shop["pets"].append(new_pet)
 
