@@ -35,4 +35,11 @@ def get_pets_by_breed(pet_shop, pet_breed):
 
     return pet_name
 
-# Test 
+# Test 10 - find a pet by it's name, return a dictionary of the pet
+# what if there is more than one pet with the same name?
+def find_pet_by_name(pet_shop, pet_name):
+    for each_pet in pet_shop["pets"]:
+        if each_pet["name"] == pet_name:
+            return each_pet
+
+
