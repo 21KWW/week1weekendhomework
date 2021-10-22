@@ -57,3 +57,7 @@ def remove_pet_by_name(pet_shop, pet_name):
 def add_pet_to_stock(pet_shop, new_pet):
     pet_shop["pets"].append(new_pet)
 
+# Test 14 - return the amount of cash a customer has
+def get_customer_cash(customer):
+    return customer["cash"]
+
