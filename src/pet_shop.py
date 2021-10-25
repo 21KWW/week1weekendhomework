@@ -80,4 +80,4 @@ def customer_can_afford_pet(customer, new_pet):
     else:
         return False
 
-    
+# Test 19 - 
